@@ -26,6 +26,18 @@
 	z-index:999999999999;
 	background:#fff url(../img/ajax-loader.gif) no-repeat center center;
 }
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Oxygen', "Arial", sans-serif;
+    background: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+}
 img{
 	-webkit-transition: all .5s ease-in-out; 
 	-moz-transition: all .5s ease-in-out; 
@@ -42,15 +54,14 @@ img.scale-with-grid{
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 .color_text{
-	color: 	white;
+	color: 	black;
 	font-family: "Helvetica", "Georgia", serif;
 	font-style: italic;
-	text-shadow: black 0.1em 0.1em 0.2em
+	text-shadow: rgba(0, 0, 0, 0.71) 0.1em 0.1em 0.2em
 }
 h1{
-	color: white;
-	margin-top: 68px;
-	margin-bottom: 7px;
+    color: 	black;
+    margin-top: 68px;
 	font: 26px/1 "Open Sans", "Arial";
 	line-height: 38px;
 	font-weight: lighter;
@@ -60,12 +71,11 @@ h1{
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 h2{
-	color: 	white;
-	font-family: "Helvetica";
+    color: 	black;
+    font-family: "Helvetica", serif;
 	font-size: 28px;
 	margin: 40px 0 40px 0;
 	line-height: 33px;
-	text-shadow: 0 1px 0 black;
 	height: 47px;
 	font-weight: 100;
 	text-transform: uppercase;
@@ -73,8 +83,8 @@ h2{
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 h3{
-	color: white;
-	font-size: 24px;
+    color: 	black;
+    font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 100;
 	line-height: 24px;
@@ -89,11 +99,10 @@ h3 span{
 }
 
 h4{
-	color: white;
-	font-weight: normal;
+    color: 	black;
 	margin-top: 5px;
 	font-size: 13px;
-	font-family: "Helvetica", "Arial";
+	font-family: "Helvetica", "Arial", serif;
 	font-weight: 300;
 	position: relative;
 	float:left;
@@ -108,13 +117,13 @@ h4 span{
 }
 
 
+
 h5{
-	color: white;
-	font-weight: normal;
-	margin-top: 20px;
+    color: 	black;
+    margin-top: 20px;
 	padding-bottom: 15px;
 	font-size: 18px;
-	font-family: "Helvetica", "Arial";
+	font-family: "Helvetica", "Arial", serif;
 	font-weight: 600;
 	position: relative;
 	float:left;
@@ -131,27 +140,27 @@ h5 span{
 h6{
 	font-size: 18px;
 	padding-bottom: 15px;
-	color: white;
-	font-family: "Helvetica";
+    color: 	black;
+    font-family: "Helvetica", serif;
 	font-weight: normal;
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 h7{
-	color: #ccc;
-	font-weight: normal;
+    color: 	black;
+    font-weight: normal;
 	margin-top: 20px;
 	padding-bottom: 15px;
 	font-size: 16px;
-	font-family: "Helvetica", "Arial";
+	font-family: "Helvetica", "Arial", serif;
 	position: relative;
 	float:left;
 	text-align: left;
 	width: 100%;
 	text-shadow: black 0.1em 0.1em 0.2em
 }
-p{	
-	color: #ccc;
-	line-height: 20px; 
+p{
+    color: 	black;
+    line-height: 20px;
 	font-size: 12px; 
 	text-shadow: black 0.1em 0.1em 0.2em
 }
@@ -159,9 +168,9 @@ li{	list-style: none;}
 
 a{
 	text-decoration: none; 
-	position: relative; 
-	color: white;  
-	-webkit-transition: all .5s ease-in-out; 
+	position: relative;
+    color: 	black;
+    -webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out; 
 	transition: all .5s ease-in-out; 
 }
@@ -271,7 +280,7 @@ section{
 	left: 240px;
 	top: 62px;
 	font-size: 12px;
-	color: #ffffff;
+	color: white;
 	font-family: "Helvetica";
 	font-style: italic;
 }
@@ -302,13 +311,11 @@ section{
 	font-size: 14px; 
 	border: 0;
 	text-decoration: none; 
-	color: 	#ffffff; 
-	padding: 0;
-	margin: 0;  
+	color: 	black;
+	margin: 0;
 	display: block;  
 	font-family: "Helvetica", "Georgia", serif;
 	cursor: pointer;
-	line-height: 23px;
 	text-transform: uppercase;
 	padding: 0 8px;
 	height: 36px;
@@ -357,32 +364,28 @@ section{
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: 0 0;	
+	background: url(../img/social_icons.png) no-repeat 0 0;
 }
 #social .twitter span.hover{
 	position: relative;
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: 0 -23px;
+	background: url(../img/social_icons.png) no-repeat 0 -23px;
 }
 #social .facebook{
 	position: relative;
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -28px 0;
+	background: url(../img/social_icons.png) no-repeat -28px 0;
 }
 #social .facebook span.hover{	
 	position: relative;
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -28px -23px;
+	background: url(../img/social_icons.png) no-repeat -28px -23px;
 }
 
 #social .forrst{
@@ -390,16 +393,14 @@ section{
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -56px 0;
+	background: url(../img/social_icons.png) no-repeat -56px 0;
 }
 #social .forrst span.hover{
 	position: relative;
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -56px -23px;
+	background: url(../img/social_icons.png) no-repeat -56px -23px;
 }
 
 #social .vimeo{
@@ -407,16 +408,14 @@ section{
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -85px 0;
+	background: url(../img/social_icons.png) no-repeat -85px 0;
 }
 #social .vimeo span.hover{
 	position: relative;
 	float: left;
 	width: 27px;
 	height: 22px;
-	background: url(../img/social_icons.png) no-repeat;
-	background-position: -85px -23px;
+	background: url(../img/social_icons.png) no-repeat -85px -23px;
 }
 
 /* 03) Home  ===================================================================================
@@ -438,7 +437,6 @@ section{
 	-moz-transition: none !important; 
 	transition: none !important; 
 }
-
 .gotop{
 	width: 19px;
 	height: 20px;
@@ -473,7 +471,6 @@ a.gotop:hover{
 	z-index: 66;
 	height: 150px;
 	width: 220px;
-   	background:url(../img/overlay.png) repeat;
 }
 .proj .moreinfo{
 	width: 46px;
@@ -481,8 +478,7 @@ a.gotop:hover{
 	position: relative;
 	left: 41%;
 	top: 36%;
-	background: url(../img/moreinfo.png) no-repeat;
-} 
+}
 #work{
 	position: relative;
 	float: left;
@@ -535,14 +531,6 @@ a.gotop:hover{
 #work-open .proj_img, #work-open .proj_video{
 	margin: 40px 0 0 0;
 }
-.sep-proj{
-	background: url("../img/pattern5.png") repeat scroll 0 0 transparent;
-    height: 7px;
-    left: 0;
-    position: relative;
-    top: 56px;
-    width: 929px;
-}
 #work .openproject{ 
 	position: relative; 
 	float: left; 
@@ -555,8 +543,7 @@ a.gotop:hover{
 #work .openproject .slides{ 
 	float: left; 
 	overflow: hidden; 
-	position: relative; 
-	
+	position: relative;
 }
 #work .openproject .slidecontent{ 
 	float: left; 
@@ -654,8 +641,7 @@ span.zoom{
 }
 #test_nav a{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat;
-	background-position: 0 0;
+	background: url(../img/t_dots.png) no-repeat 0 0;
 	position: relative;
 	float: left;
 	width: 10px;
@@ -667,8 +653,7 @@ span.zoom{
 }
 #test_nav a.activeSlide{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat;
-	background-position: 0 -13px;
+	background: url(../img/t_dots.png) no-repeat 0 -13px;
 	width: 10px;
 	height: 10px;
 	position: relative;
@@ -677,8 +662,7 @@ span.zoom{
 }
 #test_nav a:hover{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat;
-	background-position: 0 -13px;
+	background: url(../img/t_dots.png) no-repeat 0 -13px;
 	width: 10px;
 	height: 10px;
 	position: relative;
@@ -714,7 +698,7 @@ span.zoom{
 	display: block;
 	font-size: 12px;
 	font-style: italic;
-	font-family: "Georgia";
+	font-family: "Georgia", serif;
 	color: #ffffff;
 	line-height: 18px;
 
@@ -727,7 +711,7 @@ span.zoom{
 	left: 0;	
 }
 .testimonials .blockquote span{
-	font-family: "Open Sans", "Arial";
+	font-family: "Open Sans", "Arial", serif;
 	top: 7px;
 	font-size: 12px;
 	position: relative;
@@ -743,8 +727,7 @@ span.zoom{
 #about .team .team-fade{
 	position: relative;
 	float: left;
-	background: url(../img/team.jpg) no-repeat;
-	background-position: 0 0;
+	background: url(../img/team.jpg) no-repeat 0 0;
 	height: 180px;
 	width: 218px;
 }
@@ -753,8 +736,7 @@ span.zoom{
 	float: left;
 	height: 180px;
 	width: 218px;
-	background: url(../img/team.jpg) no-repeat;
-	background-position: 0 -180px;
+	background: url(../img/team.jpg) no-repeat 0 -180px;
 }
 #about .team-box{
 	position: relative;
@@ -787,7 +769,7 @@ span.zoom{
 }
 .service h6{
 	font-size: 16px;
-	font-family: "Open Sans";
+	font-family: "Open Sans", serif;
 	font-weight: 100;
 	line-height: 16px;
 	color: #ffffff;
@@ -836,12 +818,10 @@ span.zoom{
 #contact input{
 	position: relative;
 	float: left; 
-	width: 95%; 
-	border: 0; 
-	padding: 8px 10px; 
-	color: #9f9f9f; 
-	text-shadow: 0 1px 0 #000; 
-	background: #3d3d3d; 
+	width: 95%;
+	padding: 8px 10px;
+	color: #9f9f9f;
+	background: #3d3d3d;
 	background: rgba(255, 255, 255, 0.1); 
 	-webkit-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
 	-moz-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
@@ -863,17 +843,14 @@ span.zoom{
 	float: left; 
 	width: 95%; 
 	height: 90px;
-	border: 0; 
-	padding: 8px 10px; 
-	color: #9f9f9f; 
-	text-shadow: 0 1px 0 #000; 
-	background: #3d3d3d; 
+	padding: 8px 10px;
+	color: #9f9f9f;
+	background: #3d3d3d;
 	background: rgba(255, 255, 255, 0.1); 
 	-webkit-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
 	-moz-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	border: 1px solid #333; 
-	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; 
+	box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px;
+	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;
 	-moz-border-radius: 3px; 
 	-webkit-border-radius: 3px; 
 	-o-border-radius: 3px; 
@@ -881,8 +858,7 @@ span.zoom{
 	-khtml-border-radius: 3px; 
 	border-radius: 3px;
 	font-family:"Open Sans", "Helvetica", "Arial", sans-serif;
-	font-size: 12px; 
-	text-shadow: black 0.1em 0.1em 0.2em
+	font-size: 12px;
 }
 
 a.button{ 
@@ -909,8 +885,7 @@ a.button{
 }
 #contact input:hover, #contact textarea:hover{ 
 	border: 1px solid #999;
-	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; 
- 
+	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;
 }
 #contact .form{
 	margin-top: -15px;
@@ -1023,7 +998,7 @@ a.button{
 		}
 		.slogan {
 		    color: #ffffff;
-		    font-family: "Georgia";
+			font-family: "Georgia", serif;
 		    font-size: 12px;
 		    left: 78px;
 		    position: absolute;
@@ -1036,7 +1011,6 @@ a.button{
         #home h1{
 			color: #ffffff;
 			margin-top: 68px;
-			margin-bottom: 7px;
 			font: 20px/1 "Open Sans", "Arial";
 			line-height:29px;
 			font-weight: lighter;
@@ -1061,7 +1035,7 @@ a.button{
 		}
 		.service h6{
 			font-size: 13px;
-			font-family: "Open Sans";
+			font-family: "Open Sans", serif;
 			font-weight: 100;
 			line-height: 16px;
 			color: #ffffff;
@@ -1080,8 +1054,7 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 0;
+			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 140px;
 			width: 172px;
 		}
@@ -1090,8 +1063,7 @@ a.button{
 			float: left;
 			height: 140px;
 			width: 172px;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 -180px;
+			background: url(../img/team.jpg) no-repeat 0 -180px;
 		}
 		
 		h3{
@@ -1100,7 +1072,7 @@ a.button{
 			text-transform: uppercase;
 			font-weight: 100;
 			line-height: 20px;
-			font-family: "Open Sans", "Arial";
+			font-family: "Open Sans", "Arial", serif;
 			padding: 36px 0 15px 0;
 			background: url(../img/divider.png) no-repeat left bottom;
 			margin-bottom: 20px;
@@ -1116,8 +1088,7 @@ a.button{
 			position: absolute;
 			top: 5.7%;
 			right: 1.4%;
-			background: url(../img/colors/orange/close.png);
-			background-position: 0 0; 
+			background: url(../img/colors/orange/close.png) 0 0;
 			z-index: 999; 
 			width: 23px; 
 			border: 0; 
@@ -1126,9 +1097,8 @@ a.button{
 		#work .openproject .close span.hover{  
 			position: absolute; 
 			top: 0;
-			right: 0; 
-			background: url(../img/colors/orange/close.png);
-			background-position: 0 -23px; 
+			right: 0;
+			background: url(../img/colors/orange/close.png) 0 -23px;
 			z-index: 999; 
 			width: 23px; 
 			border: 0; 
@@ -1259,7 +1229,6 @@ a.button{
         #home h1{
 			color: #ffffff;
 			margin-top: 68px;
-			margin-bottom: 7px;
 			font: 16px/1 "Open Sans", "Arial";
 			line-height: 26px;
 			font-weight: lighter;
@@ -1378,8 +1347,7 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 0;
+			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 180px;
 			width: 218px;
 			left: 0;
@@ -1389,8 +1357,7 @@ a.button{
 			float: left;
 			height: 180px;
 			width: 218px;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 -180px;
+			background: url(../img/team.jpg) no-repeat 0 -180px;
 		}
 		
 		#about .team-box{
@@ -1407,9 +1374,7 @@ a.button{
 			line-height: 17px;
 			float: left;
 			font-size: 12px;
-			
 		}
-		
 		
 		#test_nav {
 		    left: 75%;
@@ -1433,8 +1398,6 @@ a.button{
 			margin-left: 0;
 		}
 		
-		
-		
 		#contact{
 			position: relative;
 			height: 1000px;
@@ -1444,21 +1407,17 @@ a.button{
 			position: relative;
 			top: 0;
 			height: 465px;
-		
 		}
 		#contact input, textarea{
 			position: relative;
 			float: left; 
-			width: 92%; 
-			
+			width: 92%;
 		}
 		#contact textarea{
 			position: relative;
 			float: left; 
-			width: 92%; 
-			 
+			width: 92%;
 		}
-		
 		.location{
 			position: relative;
 			float: left;
@@ -1468,17 +1427,13 @@ a.button{
 			width: 98%;
 			background: url(../img/divider.png) repeat-x left top;
 		}
-		
 		.location h6{
 			margin-left: 0;
 			position: relative;
-		
 		}
-		
 		#nav select{
 			display: block;
 		}
-		
 		.credits{
 			position:relative; 
 			float:left;
@@ -1561,7 +1516,6 @@ a.button{
         #home h1{
 			color: #666;
 			margin-top: 68px;
-			margin-bottom: 7px;
 			font: 16px/1 "Open Sans", "Arial";
 			line-height: 26px;
 			font-weight: lighter;
@@ -1679,8 +1633,7 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 0;
+			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 180px;
 			width: 218px;
 			left: 0;
@@ -1690,8 +1643,7 @@ a.button{
 			float: left;
 			height: 180px;
 			width: 218px;
-			background: url(../img/team.jpg) no-repeat;
-			background-position: 0 -180px;
+			background: url(../img/team.jpg) no-repeat 0 -180px;
 		}	
 		#about .team-box{
 			position: relative;
@@ -1749,8 +1701,7 @@ a.button{
 		#contact textarea{
 			position: relative;
 			float: left; 
-			width: 92%; 
-			 
+			width: 92%;
 		}
 		
 		.location{
@@ -1808,7 +1759,6 @@ a.button{
 }
 
 .settings-open{
-	background:#fff url(../img/close.png) 9px 9px no-repeat;
 	moz-border-radius-topleft: 0;
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-bottomright: 5px;
@@ -1818,7 +1768,6 @@ a.button{
 }
 
 .settings-close{
-	background:#fff url(../img/open.png) 9px 9px  no-repeat;
 	moz-border-radius-topleft: 0;
 	-moz-border-radius-topright: 5px;
 	-moz-border-radius-bottomright: 5px;
@@ -1877,7 +1826,7 @@ a.button{
 	width: 100%;
 	text-align: center;
 	right: 2px;
-	font-family: "Open Sans", "Helvetica", "Arial";
+	font-family: "Open Sans", "Helvetica", "Arial", serif;
 	font-weight: 400;
 	color: #ffffff;
 }
@@ -1907,11 +1856,9 @@ a.button{
 	box-shadow: none !important; 
 }
 .open {
-	background:#fff url(../img/close.png) no-repeat center center;
 	border-bottom: none;
 }
 .closed {
-	background:#fff url(../img/open.png) no-repeat center center;
 	border-bottom: none;
 }
 
@@ -1925,12 +1872,10 @@ a.closed:hover, a.open:hover {
 	margin-bottom: 23px;
 }
 .theme .dark{
-	background: url(../img/dark_bg.jpg) repeat;
 	padding: 8px 16px;
 	color: white;
 }
 .theme .nature{
-	background: url(../img/nature_bg.jpg) repeat;
 	padding: 8px 16px;
 	color: white;
 }
@@ -2135,9 +2080,8 @@ a.button:hover{
 	#work .openproject .close span.hover{  
 		position: absolute; 
 		top: 0;
-		right: 0; 
-		background: url(../img/colors/orange/close.png);
-		background-position: 0 -23px; 
+		right: 0;
+		background: url(../img/colors/orange/close.png) 0 -23px;
 		z-index: 999; 
 		width: 23px; 
 		border: 0; 
@@ -2150,9 +2094,8 @@ a.button:hover{
 	position: absolute;
 	top: 47.6%;
 	right: 0.2%;
-	background: url(../img/colors/orange/close.png);
-	background-position: 0 0; 
-	z-index: 999; 
+		background: url(../img/colors/orange/close.png) 0 0;
+		z-index: 999;
 	width: 23px; 
 	border: 0; 
 	height: 23px;
@@ -2160,9 +2103,8 @@ a.button:hover{
 #work .openproject .close span.hover{  
 	position: absolute; 
 	top: 0;
-	right: 0; 
-	background: url(../img/colors/orange/close.png);
-	background-position: 0 -23px; 
+	right: 0;
+	background: url(../img/colors/orange/close.png) 0 -23px;
 	z-index: 999; 
 	width: 23px; 
 	border: 0; 

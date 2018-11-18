@@ -66,7 +66,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-nav li:first-child {margin: 0;}
 .flex-control-nav li a {width: 11px; height: 11px; display: block; background: none !important; cursor: pointer; text-indent: -9999px;}
-.flex-control-nav li a:hover {background-position: 0 -11px;color: none; background: none;}
+.flex-control-nav li a:hover {
+	background: none 0 -11px;
+}
 .flex-control-nav li a.active {background-position: 0 -22px; cursor: default;}
 
 
@@ -74,15 +76,10 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 	-webkit-box-shadow: none !important; 
 	-moz-box-shadow: none !important; 
 	box-shadow: none !important; 
-	background-color: none !important; 
 }
 
 .flexslider img:hover{ 
-	-moz-border-radius: none !important; 
-	-webkit-border-radius: none !important; 
-	-o-border-radius: none !important; -ms-border-radius: none !important; 
-	-khtml-border-radius: none !important; border-radius: none !important; 
-	-moz-box-shadow: none !important; 
+	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important; 
 	-o-box-shadow: none !important; 
 	box-shadow: none !important; 	

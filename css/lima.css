@@ -64,11 +64,9 @@ section{
 #nav a.selected{
 	color: #999933;
 	background: url(../img/selected_menu.png) repeat;
-	
 }
 #nav a:hover{
 	color: #999933;
-	
 }
 /* Direction Nav - Home SLider*/
 .flex-direction-nav li a {
