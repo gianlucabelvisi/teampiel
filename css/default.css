@@ -1160,7 +1160,6 @@ a.button{
 		#fullwidth {
 			position: absolute;
 			top: 0;
-			background: url('../img/header_mobile.png') repeat-x;
 			left: 0;
 			z-index: 999999;
 			height: 360px;
