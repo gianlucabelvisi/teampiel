@@ -116,20 +116,18 @@ h4 span{
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 
-
-
 h5{
     color: 	black;
     margin-top: 20px;
 	padding-bottom: 15px;
 	font-size: 18px;
 	font-family: "Helvetica", "Arial", serif;
-	font-weight: 600;
+	font-weight: 300;
 	position: relative;
 	float:left;
 	text-align: left;
 	width: 100%;
-	text-shadow: black 0.1em 0.1em 0.2em
+	text-shadow: black 0 0.1em 0.1em
 }
 h5 span{
 	font-size: 15px;

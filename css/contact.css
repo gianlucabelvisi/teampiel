@@ -30,3 +30,11 @@ li.email { background-image:url("../images/email.png"); }
 
 #css3 li:hover { opacity:1; }
 #css3 li:hover a strong { opacity:1; top:-10px; }
+
+
+
+#map {
+ width: 100%;
+ height: 400px;
+ background-color: white;
+}
