@@ -4,7 +4,6 @@
     <list default="true" id="fbc70824-165f-4a29-8bca-d7fa321f14b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exotics.html" beforeDir="false" afterPath="$PROJECT_DIR$/exotics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,15 +16,15 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="33" />
           <entry key="gif" value="4" />
-          <entry key="html" value="6" />
+          <entry key="html" value="7" />
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="20" />
           <entry key="png" value="54" />
@@ -36,31 +35,31 @@
         <counts>
           <entry key="Adobe Photoshop" value="1" />
           <entry key="CSS" value="33" />
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="7" />
           <entry key="Image" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="169" />
-          <entry key="html" value="29" />
+          <entry key="html" value="323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="169" />
-          <entry key="HTML" value="29" />
+          <entry key="HTML" value="323" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="38" selection-end-column="7" />
+              <caret line="2" selection-start-line="2" selection-end-line="38" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -68,8 +67,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exotics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="311">
+              <caret line="79" column="68" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="68" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#7;n#section#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#5;n#section#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +129,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -140,17 +144,30 @@
             <path>
               <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
               <item name="teampiel" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teampiel" type="462c0819:PsiDirectoryNode" />
               <item name="hosts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
               <item name="teampiel" type="462c0819:PsiDirectoryNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teampiel" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teampiel" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="exotics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="teampiel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teampiel" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="exotics" type="462c0819:PsiDirectoryNode" />
+              <item name="PYTHON RETICULATUS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,27 +228,24 @@
       <option name="presentableId" value="Default" />
       <updated>1542454185774</updated>
       <workItem from="1542454187149" duration="6621000" />
+      <workItem from="1542652642258" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6621000" />
+    <option name="totallyTimeSpent" value="7820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="955" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="960" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -239,15 +253,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,33 +297,17 @@
     <entry file="file://$PROJECT_DIR$/img/arrows.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg_exotics.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg_index.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg_novelties.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg_contact.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg_shearlings.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg_exotics.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/bg_index.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/bg_novelties.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/bg_contact.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/bg_shearlings.jpg" />
     <entry file="file://$PROJECT_DIR$/img/bg_about.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/bglight.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/big-img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/big-img2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bglight.png" />
+    <entry file="file://$PROJECT_DIR$/img/big-img.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/big-img2.jpg" />
     <entry file="file://$PROJECT_DIR$/img/bg_control_nav.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -327,48 +329,28 @@
     <entry file="file://$PROJECT_DIR$/img/h2bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/homeproj1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/light_top.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/lighthome.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/homeproj1.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/light_top.png" />
+    <entry file="file://$PROJECT_DIR$/img/lighthome.png" />
     <entry file="file://$PROJECT_DIR$/img/loading.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logoTEAMPIEL.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/map.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/reflex.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logoTEAMPIEL.png" />
+    <entry file="file://$PROJECT_DIR$/img/map.png" />
+    <entry file="file://$PROJECT_DIR$/img/reflex.png" />
     <entry file="file://$PROJECT_DIR$/img/selected_menu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/slider_bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/social_icons.psd">
-      <provider selected="true" editor-type-id="layeredimageeditor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/social_icons.psd" />
     <entry file="file://$PROJECT_DIR$/img/social_icons.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/team.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/topbar.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/tp_divider.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/team.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/topbar.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/tp_divider.png" />
     <entry file="file://$PROJECT_DIR$/img/t_dots.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -383,9 +365,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/header.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/header_mobile.png">
@@ -419,14 +398,25 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="38" selection-end-column="7" />
+          <caret line="2" selection-start-line="2" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/novelties.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exotics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="311">
+          <caret line="79" column="68" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#7;n#section#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#5;n#section#0;n#section#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
