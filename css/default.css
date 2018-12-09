@@ -92,7 +92,6 @@ h3{
 	padding: 36px 0 15px 0;
 	background: url(../img/divider.png) no-repeat left bottom;
 	margin-bottom: 20px;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 h3 span{
 	font-size: 30px;
@@ -113,7 +112,6 @@ h4{
 h4 span{
 	font-size: 14px;
 	font-weight: 100;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 h5{
@@ -127,7 +125,6 @@ h5{
 	float:left;
 	text-align: left;
 	width: 100%;
-	text-shadow: black 0 0.1em 0.1em
 }
 h5 span{
 	font-size: 15px;
@@ -154,13 +151,11 @@ h7{
 	float:left;
 	text-align: left;
 	width: 100%;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 p{
     color: 	black;
     line-height: 20px;
 	font-size: 12px; 
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 li{	list-style: none;}
 
@@ -876,14 +871,15 @@ a.button{
 	padding: 10px 20px; 
 	font-family: "Open Sans", "Arial", "Helvetica", sans-serif; 
 	font-size: 12px; 
-	color: #9f9f9f; 
+	color: black;
 	margin-top: 30px;
 	font-weight: bold;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 #contact input:hover, #contact textarea:hover{ 
 	border: 1px solid #999;
-	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
 }
 #contact .form{
 	margin-top: -15px;
