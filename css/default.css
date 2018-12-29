@@ -791,13 +791,10 @@ span.zoom{
 	float: left; 
 	width: 95%;
 	padding: 8px 10px;
-	color: #9f9f9f;
+	color: #000000;
 	background: #3d3d3d;
 	background: rgba(255, 255, 255, 0.1); 
-	-webkit-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	-moz-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	border: 1px solid #333; 
+	border: 1px solid #333;
 	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; 
 	-moz-border-radius: 3px; 
 	-webkit-border-radius: 3px; 
@@ -807,7 +804,6 @@ span.zoom{
 	border-radius: 3px;
 	font-family:"Open Sans", "Helvetica", "Arial", sans-serif;
 	font-size: 12px;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 #contact textarea{
 	position: relative;
@@ -815,12 +811,9 @@ span.zoom{
 	width: 95%; 
 	height: 90px;
 	padding: 8px 10px;
-	color: #9f9f9f;
+	color: #000000;
 	background: #3d3d3d;
 	background: rgba(255, 255, 255, 0.1); 
-	-webkit-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	-moz-box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px; 
-	box-shadow: inset rgba(0, 0, 0, 0.35) 2px 2px 12px, rgba(0, 0, 0, 0.3) 0 -1px 2px;
 	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;
 	-moz-border-radius: 3px; 
 	-webkit-border-radius: 3px; 
