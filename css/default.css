@@ -51,13 +51,11 @@ img.scale-with-grid{
 	background: rgb(255,204,51); color:#333;
 	line-height: 0;
 	padding: 0;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 .color_text{
 	color: 	black;
 	font-family: "Helvetica", "Georgia", serif;
 	font-style: italic;
-	text-shadow: rgba(0, 0, 0, 0.71) 0.1em 0.1em 0.2em
 }
 h1{
     color: 	black;
@@ -65,10 +63,9 @@ h1{
 	font: 26px/1 "Open Sans", "Arial";
 	line-height: 38px;
 	font-weight: lighter;
-	margin-left: 0px;
+	margin-left: 0;
 	text-align: center;
 	margin-bottom: 35px;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 h2{
     color: 	black;
@@ -80,7 +77,6 @@ h2{
 	font-weight: 100;
 	text-transform: uppercase;
 	padding: 7px 7px 7px 12px;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 h3{
     color: 	black;
@@ -107,7 +103,6 @@ h4{
 	float:left;
 	text-align: left;
 	width: 100%;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 h4 span{
 	font-size: 14px;
@@ -129,7 +124,6 @@ h5{
 h5 span{
 	font-size: 15px;
 	font-weight: 100;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 
 h6{
@@ -138,20 +132,8 @@ h6{
     color: 	black;
     font-family: "Helvetica", serif;
 	font-weight: normal;
-	text-shadow: black 0.1em 0.1em 0.2em
 }
-h7{
-    color: 	black;
-    font-weight: normal;
-	margin-top: 20px;
-	padding-bottom: 15px;
-	font-size: 16px;
-	font-family: "Helvetica", "Arial", serif;
-	position: relative;
-	float:left;
-	text-align: left;
-	width: 100%;
-}
+
 p{
     color: 	black;
     line-height: 20px;
@@ -174,7 +156,6 @@ a.mapimg:hover, a.galleryproj:hover{
 a:hover, p a:focus, #footer a:focus{
 	color: #ff6600; 
 	border-bottom: 1px dotted #ff6600; 
-	text-shadow: black 0.1em 0.1em 0.2em
 }
 p a:focus{ 
 	-webkit-box-shadow: #ff6600 1px 1px 10px; 
@@ -239,7 +220,7 @@ section{
 }
 #btop{
 	position: fixed;
-	top: 0px;
+	top: 0;
 	z-index: 9999999;
 	height: 143px;
 	width: 960px;
@@ -250,7 +231,7 @@ section{
 	height: auto;
 	position: relative;
 	top: 20px;
-	left: 0px;
+	left: 0;
 	margin: 0;
 	float: left;
 }
@@ -274,7 +255,6 @@ section{
 	top: 62px;
 	font-size: 12px;
 	color: white;
-	font-family: "Helvetica";
 	font-style: italic;
 }
 #nav{ 
@@ -458,7 +438,7 @@ a.gotop:hover{
    ============================================================================================= */
 .proj .portfoliooverlay{
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: 0;
 	display: none;
 	z-index: 66;
@@ -720,7 +700,6 @@ span.zoom{
 #about .team .team-fade{
 	position: relative;
 	float: left;
-	background: url(../img/team.jpg) no-repeat 0 0;
 	height: 180px;
 	width: 218px;
 }
@@ -729,7 +708,6 @@ span.zoom{
 	float: left;
 	height: 180px;
 	width: 218px;
-	background: url(../img/team.jpg) no-repeat 0 -180px;
 }
 #about .team-box{
 	position: relative;
@@ -930,6 +908,11 @@ a.button{
 
 /* 10) Footer  =================================================================================
    ============================================================================================= */
+.address {
+	margin-top: 100px;
+	text-align: center;
+}
+
 #footer{ 
 	position: relative;
 	background: url(../img/divider.png) repeat-x left top; 
@@ -1008,7 +991,7 @@ a.button{
 			font: 20px/1 "Open Sans", "Arial";
 			line-height:29px;
 			font-weight: lighter;
-			margin-left: 0px;
+			margin-left: 0;
 			text-align: center;
 			margin-bottom: 35px;
 		}
@@ -1048,7 +1031,6 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 140px;
 			width: 172px;
 		}
@@ -1057,7 +1039,6 @@ a.button{
 			float: left;
 			height: 140px;
 			width: 172px;
-			background: url(../img/team.jpg) no-repeat 0 -180px;
 		}
 		
 		h3{
@@ -1168,7 +1149,7 @@ a.button{
 		#logo {
 			position: absolute;
 			top: 13px;
-			left: 0px;
+			left: 0;
 		}
 		.slogan {
 		    position: absolute;
@@ -1225,7 +1206,7 @@ a.button{
 			font: 16px/1 "Open Sans", "Arial";
 			line-height: 26px;
 			font-weight: lighter;
-			margin-left: 0px;
+			margin-left: 0;
 			text-align: center;
 			margin-bottom: 35px;		
 		}
@@ -1263,7 +1244,7 @@ a.button{
 		}
 		
 		#work{
-			padding: 0 0 0px 0 !important;		
+			padding: 0 0 0 0 !important;		
 		}	
 		#work .thumb_proj{
 			position: relative;
@@ -1340,7 +1321,6 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 180px;
 			width: 218px;
 			left: 0;
@@ -1350,7 +1330,6 @@ a.button{
 			float: left;
 			height: 180px;
 			width: 218px;
-			background: url(../img/team.jpg) no-repeat 0 -180px;
 		}
 		
 		#about .team-box{
@@ -1457,7 +1436,7 @@ a.button{
 		#logo {
 			position: absolute;
 			top: 13px;
-			left: 0px;
+			left: 0;
 		}
 		.slogan {
 		    position: absolute;
@@ -1512,7 +1491,7 @@ a.button{
 			font: 16px/1 "Open Sans", "Arial";
 			line-height: 26px;
 			font-weight: lighter;
-			margin-left: 0px;
+			margin-left: 0;
 			text-align: center;
 			margin-bottom: 35px;		
 		}
@@ -1550,7 +1529,7 @@ a.button{
 		}
 		
 		#work{
-			padding: 0 0 0px 0 !important;		
+			padding: 0 0 0 0 !important;		
 		}	
 		#work .thumb_proj{
 			position: relative;
@@ -1626,7 +1605,6 @@ a.button{
 		#about .team .team-fade{
 			position: relative;
 			float: left;
-			background: url(../img/team.jpg) no-repeat 0 0;
 			height: 180px;
 			width: 218px;
 			left: 0;
@@ -1636,8 +1614,7 @@ a.button{
 			float: left;
 			height: 180px;
 			width: 218px;
-			background: url(../img/team.jpg) no-repeat 0 -180px;
-		}	
+		}
 		#about .team-box{
 			position: relative;
 			background: url(../img/divider.png) repeat-x left bottom;
@@ -1724,7 +1701,7 @@ a.button{
    ============================================================================================= */
 #switcher{ 
 	position: fixed;
-	left: 0px;
+	left: 0;
 	top: 200px;
 	z-index: 9999;
 	background:#fff;
@@ -1782,9 +1759,9 @@ a.button{
 	font-size: 11px;
 	border: 1px solid #E1E1E1;
 	border-bottom: 1px solid rgba(150, 150, 150, 0.2);
-	-webkit-box-shadow: 2px 2px 0px 0px rgba(150, 150, 150, 0.1);
-	-moz-box-shadow: 2px 2px 0px 0px rgba(150, 150, 150, 0.1);
-	box-shadow: 2px 2px 0px 0px rgba(150, 150, 150, 0.1);
+	-webkit-box-shadow: 2px 2px 0 0 rgba(150, 150, 150, 0.1);
+	-moz-box-shadow: 2px 2px 0 0 rgba(150, 150, 150, 0.1);
+	box-shadow: 2px 2px 0 0 rgba(150, 150, 150, 0.1);
 }
 
 #option_wrapper .inner

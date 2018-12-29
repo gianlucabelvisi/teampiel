@@ -27,7 +27,6 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="css/galleryfilter.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/prettyPhoto.css">
 	<link rel="stylesheet" type="text/css" media="screen" href="css/photo_hover.css">
-	<link rel="stylesheet" type="text/css" media="screen" href="css/index.css">
 
 	<!-- CSS for Skeleton -->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css">
@@ -49,7 +48,6 @@
 
 	<div id="btop">
 		<div class="siteen columns">
-			<img src="img/light_top.png" class="light_top" alt="">
 
 			<!-- logo -->
 			<h4 id="logo" class="four columns">
@@ -65,7 +63,7 @@
 					<li><a class="selected" href="shearlings.html" tabindex="-1">Shearlings</a></li>
 					<li><a href="novelties.html" tabindex="-1">Novelties</a></li>
 					<li><a href="about.html" tabindex="-1">About</a></li>
-					<li><a href="http://www.colorcards.it" target="_blank" tabindex="-1">Colors</a></li>
+					<!--<li><a href="http://www.teampiel-colors.it" target="_blank" tabindex="-1">Colors</a></li>-->
 				</ul>
 			</nav>
 			<!-- End MENU -->
@@ -137,9 +135,8 @@
 						<div class="slidecontent four columns" style="margin:0 0 0 18px;">
 							<div class="project-title four columns" style="margin:0;">
 								<h3>Shearlings<br /> <span>Merinos</span></h3>
-								<p>Average Size: Various, depending on material</p>
-								<p>Available Wool Types: Curly, Semi Curly, Ironed</p>
-								<p>Available Wool Length: From 4mm to 6mm, depending on material</p>
+								<p>Available wool types: Curly, semicurly, ironed</p>
+								<p>Available wool length: from 3 to 20 mm</p>
 							</div>
 						</div>
 					</div>
@@ -162,9 +159,6 @@
 						<div class="slidecontent four columns" style="margin:0 0 0 18px;">
 							<div class="project-title four columns" style="margin:0;">
 								<h3>Shearlings <br /> <span>Toscana</span></h3>
-								<p>Average Size: 3,30 - 4,40 SF/SKIN</p>
-								<p>Available Hair Types: Ironed, Waved, Curly</p>
-								<p>County of Origin: Italy</p>
 							</div>
 						</div>
 					</div>
@@ -262,25 +256,6 @@
 
 	<!-- Script Google Maps -->
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script type="text/javascript">
-	  function initialize() {
-
-		var latlng = new google.maps.LatLng(document.getElementById('gm_lat').value, document.getElementById('gm_lng').value);
-		var myOptions = {
-		  zoom: 15,
-		  center: latlng,
-		  mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-
-		// Creating a marker and positioning it on the map
-			var marker = new google.maps.Marker({
-			  position: new google.maps.LatLng(document.getElementById('gm_lat').value, document.getElementById('gm_lng').value),
-			  map: map
-			});
-	  }
-
-	</script>
 
 
 </body>
