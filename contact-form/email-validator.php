@@ -3,10 +3,10 @@
     /*
 
         EmailAddressValidator Class
-        http://code.google.com/p/php-email-address-validation/
+        https://code.google.com/p/php-email-address-validation/
 
         Released under New BSD license
-        http://www.opensource.org/licenses/bsd-license.php
+        https://www.opensource.org/licenses/bsd-license.php
         
 
     */
