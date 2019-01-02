@@ -614,7 +614,6 @@ span.zoom{
 }
 #test_nav a{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat 0 0;
 	position: relative;
 	float: left;
 	width: 10px;
@@ -626,7 +625,6 @@ span.zoom{
 }
 #test_nav a.activeSlide{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat 0 -13px;
 	width: 10px;
 	height: 10px;
 	position: relative;
@@ -635,7 +633,6 @@ span.zoom{
 }
 #test_nav a:hover{
 	text-indent: -9999px;
-	background: url(../img/t_dots.png) no-repeat 0 -13px;
 	width: 10px;
 	height: 10px;
 	position: relative;
@@ -662,7 +659,6 @@ span.zoom{
 	padding-bottom: 20px;
 }
 .testimonials .blockquote{
-	background: url(../img/divider.png) no-repeat bottom left;
 	padding: 0 0 30px 20px;
 	position: relative;
 	float: left;
@@ -677,7 +673,6 @@ span.zoom{
 
 }
 .testimonials .blockquote .quote-img{
-	background: url(../img/blockquote.png) no-repeat top left;
 	width: 11px;
 	height: 7px;
 	position: absolute;
@@ -1120,7 +1115,7 @@ a.button{
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1125px) {
 #btop{
 			position: absolute;
 		}
@@ -1144,6 +1139,14 @@ a.button{
 			top: 13px;
 			left: 0;
 		}
+
+        #logo a {
+            width: 300px;
+            height: 100px;
+            background: url(../img/logo.png) no-repeat top center;
+            background-size: 100% auto;
+        }
+
 		.slogan {
 		    position: absolute;
 		    font-size: 12px;
@@ -1207,7 +1210,7 @@ a.button{
 		#home{
 			position: relative;
 			height: 800px;
-			padding-top: 310px;
+			padding-top: 340px;
 		}
 		
 		#recent_projects .home-proj .hprojimg{
