@@ -17,7 +17,7 @@
 /* FlexSlider Necessary Styles
 *********************************/ 
 .work-slide {width: 100%; margin: 0 0 10px 0; padding: 0;}
-.flexslider {width: 100%; margin: 0 0 10px 0; padding: 0;}
+.flexslider {width: 100%; margin: 0 0 10px 0; padding: 0; padding-top: 20px;}
 .flexslider .slides > li,
 .work-slide .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img,

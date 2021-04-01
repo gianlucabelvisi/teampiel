@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Baldereschi</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="index, follow">
+
+	<!-- Meta-Tags -->
+	<meta name="keywords" content="team piel leather export">
+	<meta name="description" content="">
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" 				 href="img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72"   href="img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+	<!-- Load Styles -->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="themes/default/default.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/default.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/galleryfilter.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/photo_hover.css">
+
+	<!-- CSS for Skeleton -->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css">
+
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/modernizr-2.5.2.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="loadingpage"></div>
+<div id="fullwidth"></div>
+
+<div class="container">
+
+	<div id="btop">
+		<div class="sixteen columns">
+
+			<!-- logo -->
+			<h4 id="logo" class="five columns tooltip">
+				<a href="index.html" tabindex="-1"></a>
+				<span class="tooltiptext">Home</span>
+			</h4>
+
+			<!-- Start MENU -->
+			<nav id="nav" class="eleven columns">
+
+				<ul class="nav-menu">
+					<li class="dropdown">
+						<a href="#" style="color: #ff3224" class="dropbtn">Showroom</a>
+						<div class="dropdown-content">
+							<a href="showroom-novelties.html">Novelties</a>
+							<a href="showroom-shearlings.html">Shearlings</a>
+						</div>
+					</li>
+					<li><a href="exotics.html" >Exotics</a></li>
+					<li><a href="shearlings.html" >Shearlings</a></li>
+					<li><a href="novelties.html" >Novelties</a></li>
+					<li><a href="about.html" >About</a></li>
+					<li><a href="http://www.colorcards.it" target="_blank">Colors</a></li>
+				</ul>
+			</nav>
+			<!-- End MENU -->
+		</div>
+	</div>
+
+
+
+	<div class="sixteen columns" id="wrapper">
+
+		<section id="home" class="sixteen columns">
+			<br>
+			<br>
+			<br>
+			<br>
+			<div id="pwdForm">
+				Password: <input type="password" id="myPassword"> <button onclick="insertPassword()">OK</button> <span id="incorrect" style="display: none; color: red">  Incorrect</span>
+			</div>
+
+			<iframe id="showroom" width="100%" height="800" style="width: 100%; height: 800px; border: none; max-width: 100%;display: none;"
+					frameborder="0" allowfullscreen allow="xr-spatial-tracking; gyroscope; accelerometer"
+					scrolling="no" src="https://kuula.co/share/collection/7PG5M?fs=1&vr=1&zoom=1&sd=1&initload=0&thumbs=3&chromeless=1&logo=-1">
+			</iframe>
+
+			<script>
+				function insertPassword() {
+					var pwd = document.getElementById("myPassword");
+					if (pwd.value === 'perepepestoc') {
+						document.getElementById("pwdForm").style.display = "none";
+						document.getElementById("showroom").style.display = "block";
+						document.getElementById("incorrect").style.display = "none";
+					} else {
+						document.getElementById("incorrect").style.display = "inline";
+					}
+				}
+			</script>
+
+		</section>
+
+    </div>
+
+</div>
+
+	<!-- Load Scripts -->
+<script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script src="js/bloom.js" type="text/javascript"></script>
+<script src="js/stickyPanel.js" type="text/javascript"></script>
+<script src="js/jquery-history.js" type="text/javascript"></script>
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/contact-form.js" type="text/javascript"></script>
+<script src="js/jQueryWaypoints.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script src="js/css3-mediaqueries.js" type="text/javascript"></script>
+<script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+
+
+<!-- Load FlexSlider -->
+<script type="text/javascript">
+  $(window).load(function() {
+
+    $('#homeslider').flexslider({
+      animation: "slide",
+      controlsContainer: '.flex-container'
+    });
+
+    //Add one flexslider for project
+    $('#proj_slider01').flexslider();
+    $('#proj_slider02').flexslider();
+    $('#proj_slider03').flexslider();
+    $('#proj_slider04').flexslider();
+    $('#proj_slider05').flexslider();
+    $('#proj_slider06').flexslider();
+    $('#proj_slider07').flexslider();
+    $('#proj_slider08').flexslider();
+    $('#proj_slider09').flexslider();
+  });
+</script>
+
+
+</body>
+</html>

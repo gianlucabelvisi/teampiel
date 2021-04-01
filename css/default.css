@@ -86,7 +86,6 @@ h3{
 	line-height: 24px;
 	font-family: "Helvetica", "Arial", sans-serif;
 	padding: 36px 0 15px 0;
-	background: url(../img/divider.png) no-repeat left bottom;
 	margin-bottom: 20px;
 }
 h3 span{
@@ -154,26 +153,25 @@ a.mapimg:hover, a.galleryproj:hover{
 }
 
 a:hover, p a:focus, #footer a:focus{
-	color: #ff6600; 
-	border-bottom: 1px dotted #ff6600; 
+	color: #2d5dba;
 }
 p a:focus{ 
-	-webkit-box-shadow: #ff6600 1px 1px 10px; 
-	-moz-box-shadow: #ff6600 1px 1px 5px; 
-	box-shadow: #ff6600 1px 1px 10px; 
+	-webkit-box-shadow: #2d5dba 1px 1px 10px;
+	-moz-box-shadow: #2d5dba 1px 1px 5px;
+	box-shadow: #2d5dba 1px 1px 10px;
 }
 a:hover img, a:focus img{ 
-	-webkit-box-shadow: #ff6600 0 0 6px; 
-	-moz-box-shadow: #ff6600 0 0 6px; 
-	box-shadow: #ff6600 0 0 6px; 
-	background-color: #ff6600; 
+	-webkit-box-shadow: #2d5dba 0 0 6px;
+	-moz-box-shadow: #2d5dba 0 0 6px;
+	box-shadow: #2d5dba 0 0 6px;
+	background-color: #2d5dba;
  
 }
 section{
 	text-align: left; 
 	position: relative; 
 	float: left; 
-	padding: 78px 0; 
+	padding: 20px 0;
 	background: none; 
 	height: 1100px;
 }
@@ -182,16 +180,73 @@ section{
 	outline: 0; 
 }
 #nav a .selected{
-	color: #ff6600;
+	color: #2d5dba;
 }
 #nav a:hover{
-	color: #ff6600;
+	color: #2d5dba;
 }
 
 .hidden{
 	display: none; 
 }
 
+
+/* Dropdown  =================================================================================
+   ============================================================================================= */
+
+.dropbtn a {
+	font-size: 14px;
+	border: 0;
+	text-decoration: none;
+	color: 	#ff3224;
+	margin: 0;
+	display: block;
+	font-family: "Helvetica", "Georgia", serif;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 0 4px;
+	height: 36px;
+	line-height: 35px;
+	vertical-align: baseline;
+	text-align: -webkit-match-parent;
+	font-weight: normal;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+#nav .dropdown-content a {
+	color: #ff3224;
+	/*text-decoration: none;*/
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	color: #ff3224;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+
+}
 
 /* 02) Header  =================================================================================
    ============================================================================================= */
@@ -223,7 +278,7 @@ section{
 	top: 0;
 	z-index: 9999999;
 	height: 143px;
-	width: 960px;
+	width: 1100px;
 	margin: 0 auto;
 }
 
@@ -245,6 +300,7 @@ section{
 	height: 100px; 
 	display: block; 
 	background: url('../img/logo.png') no-repeat top center;
+	background-size: 100% auto;
 	text-indent: -9999px;
 	border: 0; 
 	margin: 0 auto;
@@ -290,7 +346,7 @@ section{
 	font-family: "Helvetica", "Georgia", serif;
 	cursor: pointer;
 	text-transform: uppercase;
-	padding: 0 8px;
+	padding: 0 4px;
 	height: 36px;
 	line-height: 35px;
 }
@@ -391,6 +447,29 @@ section{
 	background: url(../img/social_icons.png) no-repeat -85px -23px;
 }
 
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	/*background-color: black;*/
+	/*color: #fff;*/
+	text-align: center;
+	/*border-radius: 6px;*/
+	padding: 0 0;
+	color: black;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
 /* 03) Home  ===================================================================================
    ============================================================================================= */
 #home{ 
@@ -432,7 +511,6 @@ a.gotop:hover{
 #recent_projects .home-proj .text{
 	position: relative;
 	padding: 5px 0 15px 0;
-	background: url(../img/divider.png) repeat-x left bottom;
 }
 /* 04) Projects  ===============================================================================
    ============================================================================================= */
@@ -455,9 +533,8 @@ a.gotop:hover{
 #work{
 	position: relative;
 	float: left;
-	padding-top: 110px; 
+	padding-top: 20px;
 	margin: 0;
-	background: url(../img/divider.png) repeat-x left bottom;
 }
 
 #work .thumb_proj{
@@ -561,7 +638,7 @@ span.zoom{
    ============================================================================================= */
    
 #gallery{
-	padding: 130px 0 30px 0;
+	/*padding: 130px 0 30px 0;*/
 	height: auto; 
 	overflow: visible; 
 	margin: 0;
@@ -569,7 +646,6 @@ span.zoom{
 }
 
 #gallery .gallery_sep{
-	background: url(../img/divider.png) repeat-x;
 	height: 2px;
 	position: relative;
 	margin: 40px 0 20px 0;
@@ -655,7 +731,6 @@ span.zoom{
 	position: relative;
 	float: left;
 	top: 0;
-	background: url(../img/divider.png) repeat-x;
 	padding-bottom: 20px;
 }
 .testimonials .blockquote{
@@ -706,7 +781,6 @@ span.zoom{
 }
 #about .team-box{
 	position: relative;
-	background: url(../img/divider.png) repeat-x left bottom;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin: 0 0 0 18px;
@@ -756,7 +830,7 @@ span.zoom{
 	position: relative;
 	float: left;
 	height: 600px;
-	padding: 130px 0 30px 0;
+	padding: 20px 0 10px 0;
 }
 #contact_form{
 	position: relative;
@@ -903,7 +977,6 @@ a.button{
 
 #footer{ 
 	position: relative;
-	background: url(../img/divider.png) repeat-x left top; 
 	text-align: center;
 	height: 50px;
 	color: red; 
@@ -1037,7 +1110,6 @@ a.button{
 			line-height: 20px;
 			font-family: "Open Sans", "Arial", serif;
 			padding: 36px 0 15px 0;
-			background: url(../img/divider.png) no-repeat left bottom;
 			margin-bottom: 20px;
 		}
 		h3 span{
@@ -1223,7 +1295,6 @@ a.button{
 			float: left;
 			width: 192px;
 			padding: 5px 0 15px 0;
-			background: url(../img/divider.png) repeat-x left bottom;
 		}
 		
 		.flex-direction-nav li a.prev {
@@ -1330,7 +1401,6 @@ a.button{
 		
 		#about .team-box{
 			position: relative;
-			background: url(../img/divider.png) repeat-x left bottom;
 			padding-bottom: 20px;
 			padding-top: 30px;
 			margin: 0 0 0 0;
@@ -1393,7 +1463,6 @@ a.button{
 			top: 20px;
 			padding-top: 40px;
 			width: 98%;
-			background: url(../img/divider.png) repeat-x left top;
 		}
 		.location h6{
 			margin-left: 0;
@@ -1508,7 +1577,6 @@ a.button{
 			float: left;
 			width: 268px;
 			padding: 5px 0 15px 0;
-			background: url(../img/divider.png) repeat-x left bottom;
 		}
 		
 		.flex-direction-nav li a.prev {
@@ -1613,7 +1681,6 @@ a.button{
 		}
 		#about .team-box{
 			position: relative;
-			background: url(../img/divider.png) repeat-x left bottom;
 			padding-bottom: 20px;
 			padding-top: 30px;
 			margin: 0 0 0 0;
@@ -1677,7 +1744,6 @@ a.button{
 			top: 20px;
 			padding-top: 40px;
 			width: 98%;
-			background: url(../img/divider.png) repeat-x left top;
 		}
 		
 		.location h6{
@@ -1969,8 +2035,8 @@ a.closed:hover, a.open:hover {
    
 }
 
-::selection {background: #fd8e44; color:#000;}
-::-moz-selection {background: #fd8e44; color:#000;}
+/*::selection {background: #fd8e44; color:#000;}*/
+/*::-moz-selection {background: #fd8e44; color:#000;}*/
 
 
 
@@ -1984,25 +2050,25 @@ a.closed:hover, a.open:hover {
 #gallery .ff-container input.ff-selector-type-1:checked ~ label.ff-label-type-1,
 #gallery .ff-container input.ff-selector-type-2:checked ~ label.ff-label-type-2,
 #gallery .ff-container input.ff-selector-type-3:checked ~ label.ff-label-type-3{
-	color: #ff6600;
+	color: #2d5dba;
 	
 }
 
 #contact input:focus, #contact textarea:focus{ 
 	color: #ccc; 
-	border: 1px solid #ff6600; 
-	-webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #ff6600 0 0 5px; 
-	-moz-box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #ff6600 0 0 5px; 
-	box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #ff6600 0 0 5px; 
+	border: 1px solid #2d5dba;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #2d5dba 0 0 5px;
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #2d5dba 0 0 5px;
+	box-shadow: inset rgba(0, 0, 0, 0.25) 1px 1px 8px, #2d5dba 0 0 5px;
 	outline: 0; 
 	-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; 
 
 }
 a.button:hover{
-	-webkit-box-shadow: #ff6600 0 0 5px; 
-	-moz-box-shadow: #ff6600 0 0 5px; 
-	box-shadow: #ff6600 0 0 5px; 
-	background-color: #ff6600;
+	-webkit-box-shadow: #2d5dba 0 0 5px;
+	-moz-box-shadow: #2d5dba 0 0 5px;
+	box-shadow: #2d5dba 0 0 5px;
+	background-color: #2d5dba;
 	color: #ccc;
 	-webkit-transition: all .4s ease; -moz-transition: all .4s ease; transition: all .4s ease; 
 
